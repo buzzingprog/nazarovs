@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy & Terms — PDDshkin</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 15px;
+    }
+
+    .lang-switch button {
+      margin-left: 5px;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      background: #fff;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    .lang-switch button.active {
+      background: #222;
+      color: #fff;
+    }
+
+    h1 { font-size: 26px; margin-bottom: 10px; }
+    h2 { margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+
+    p { margin: 10px 0; }
+    ul { margin: 10px 0 10px 20px; }
+    li { margin: 5px 0; }
+
+    .meta { color: #555; margin-bottom: 5px; }
+    .section-title { font-weight: bold; }
+
+    a { color: #0a58ca; word-break: break-word; }
+
+    .lang { display: none; }
+    .lang.active { display: block; }
+  </style>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+
+      document.querySelectorAll('.lang-switch button').forEach(b => b.classList.remove('active'));
+      document.getElementById('btn-' + lang).classList.add('active');
+
+      document.documentElement.lang = lang;
+    }
+
+    window.onload = () => setLang('ru');
+  </script>
+</head>
+
+<body>
+<div class="container">
+
+<div class="lang-switch">
+  <button id="btn-ru" onclick="setLang('ru')">RU</button>
+  <button id="btn-en" onclick="setLang('en')">EN</button>
+</div>
+
+<!-- ================= RU ================= -->
+<div id="ru" class="lang">
+
+<h1>Политика конфиденциальности и Пользовательское соглашение</h1>
+
+<p class="meta"><strong>Приложение:</strong> ПДДшкин (PDDshkin)</p>
+<p class="meta"><strong>Дата вступления в силу:</strong> 24 февраля 2026 г.</p>
+
+<h2>1. Статус приложения (Отказ от аффилированности)</h2>
+
+<p><strong>Не является государственным органом:</strong><br>
+Приложение «ПДДшкин» является частным коммерческим продуктом. Мы не являемся государственным органом и не аффилированы с ГИБДД МВД РФ, Министерством транспорта или иными государственными структурами.</p>
+
+<p><strong>Источники информации:</strong><br>
+Экзаменационные билеты и правила дорожного движения, используемые в приложении, взяты из открытых официальных источников (включая сайт ГИБДД.рф). Приложение не является официальным сервисом этих ведомств.</p>
+
+<h2>2. Сбор и использование данных (Privacy)</h2>
+
+<p><strong>Персональные данные:</strong><br>
+Приложение не собирает и не передает на свои серверы персональные данные пользователей (ФИО, паспортные данные, ПТС, данные банковских карт и иные идентифицирующие сведения).</p>
+
+<p><strong>Локальная обработка:</strong><br>
+Все данные, используемые внутри приложения (включая расчет страховых параметров), обрабатываются исключительно локально на устройстве пользователя и не передаются разработчику.</p>
+
+<p><strong>Идентификация:</strong><br>
+Приложение использует анонимный уникальный идентификатор (Unique ID), не связанный с личностью пользователя, для учета игрового прогресса и баллов.</p>
+
+<p><strong>Реклама и сторонние сервисы:</strong><br>
+Приложение может использовать сторонние рекламные сервисы (Google AdMob, Yandex). Эти сервисы могут автоматически собирать обезличенные технические данные, включая:</p>
+
+<ul>
+<li>рекламные идентификаторы устройства</li>
+<li>информацию о взаимодействии с рекламой</li>
+<li>технические параметры устройства</li>
+</ul>
+
+<p>Сбор и обработка таких данных регулируются политиками конфиденциальности соответствующих сервисов.</p>
+
+<h2>3. Рекламные предложения и партнерские сервисы</h2>
+
+<p>Приложение предоставляет доступ к рекламным материалам и сервисам сторонних партнеров.</p>
+
+<p><strong>Информационный характер</strong>: Предложения по автострахованию и другим услугам являются <strong>рекламным контентом</strong>, предоставляемым лицензированными агрегаторами и страховыми компаниями (далее — «Партнеры»).</p>
+
+<p><strong>Внешний переход</strong>: Все взаимодействия с партнерскими сервисами, включая ввод данных и оплату, происходят <strong>вне Приложения</strong> — в защищенном системном браузере устройства (Chrome Custom Tabs) на ресурсах соответствующих Партнеров.</p>
+
+<p><strong>Безопасность данных</strong>: Приложение <strong>не собирает, не хранит и не передает</strong> ваши персональные (ФИО, паспорт, VIN) или финансовые данные. Обработка такой информации регулируется политиками конфиденциальности соответствующих Партнеров на их внешних ресурсах.</p>
+
+<p><strong>Ограничение ответственности</strong>: Приложение является исключительно информационной и рекламной площадкой. Разработчик не несет ответственности за содержание предложений Партнеров, качество их услуг или исполнение ими обязательств.</p>
+
+<h2>4. Правила программы лояльности (Terms of Use)</h2>
+
+<p><strong>Игровые баллы (Game Score):</strong><br>
+Начисляются за действия внутри приложения, включая просмотр рекламы или оформление страхового полиса через виджет партнера.</p>
+
+<p><strong>Статус баллов:</strong><br>
+Баллы являются виртуальной ценностью. Они:</p>
+
+<ul>
+<li>не имеют денежной стоимости</li>
+<li>не подлежат обмену на реальные деньги</li>
+<li>не могут быть выведены из приложения</li>
+<li>не являются платежным средством</li>
+</ul>
+
+<p>Разработчик оставляет за собой право изменять правила начисления и использования баллов.</p>
+
+<h2>5. Отказ от ответственности</h2>
+
+<p>Приложение не гарантирует абсолютную точность интерпретации правил дорожного движения пользователем.</p>
+
+<p>Пользователь самостоятельно несет ответственность за использование полученной информации в реальной жизни.</p>
+
+<p>Приложение не несет ответственности за:</p>
+
+<ul>
+<li>решения пользователя</li>
+<li>действия третьих лиц</li>
+<li>работу сторонних сервисов, включая платежные системы и страховые компании</li>
+</ul>
+
+<h2>6. Хранение и удаление данных</h2>
+
+<p>Все пользовательские данные хранятся локально на устройстве пользователя.</p>
+<p>Удаление приложения приводит к удалению всех связанных с ним данных.</p>
+<p>Приложение не хранит пользовательские данные на удаленных серверах.</p>
+
+<h2>7. Возрастные ограничения</h2>
+
+<p>Приложение не предназначено для использования детьми младше 13 лет.</p>
+<p>Разработчик не осуществляет целенаправленный сбор данных несовершеннолетних.</p>
+
+<h2>8. Изменения политики</h2>
+
+<p>Разработчик оставляет за собой право изменять настоящую Политику конфиденциальности и Пользовательское соглашение.</p>
+<p>Актуальная версия всегда доступна внутри приложения или на странице приложения.</p>
+
+<h2>9. Применимое право</h2>
+
+<p>К настоящему соглашению применяется право Российской Федерации, если иное не предусмотрено обязательными нормами применимого законодательства.</p>
+
+<h2>10. Контакты</h2>
+
+<p>Email: pddshkin@hcontacts.com</p>
+
+</div>
+
+<!-- ================= EN ================= -->
+<div id="en" class="lang">
+
+<h1>Privacy Policy & Terms</h1>
+
+<p class="meta"><strong>Application:</strong> PDDshkin</p>
+<p class="meta"><strong>Effective Date:</strong> February 24, 2026</p>
+
+<h2>1. Application Status (No Affiliation Disclaimer)</h2>
+
+<p><strong>Not a Government Entity:</strong><br>
+The “PDDshkin” application is a private commercial product. We are not a government authority and are not affiliated with the State Traffic Safety Inspectorate (GIBDD), the Ministry of Transport, or any other governmental institutions.</p>
+
+<p><strong>Sources of Information:</strong><br>
+Traffic rules and exam materials used in the application are obtained from publicly available official sources (including the GIBDD website). The application is not an official service of these authorities.</p>
+
+<h2>2. Data Collection and Use (Privacy)</h2>
+
+<p><strong>Personal Data:</strong><br>
+The application does not collect or transmit users’ personal data to its servers (including full name, passport details, vehicle documents, or payment information).</p>
+
+<p><strong>Local Processing:</strong><br>
+All data used within the application (including insurance-related calculations) is processed locally on the user’s device and is not transmitted to the developer.</p>
+
+<p><strong>Identification:</strong><br>
+The application uses an anonymous Unique ID that is not linked to the user’s identity to track progress and in-app points.</p>
+
+<p><strong>Advertising and Third-Party Services:</strong><br>
+The application may use third-party advertising services (Google AdMob, Yandex). These services may automatically collect anonymized technical data, including:</p>
+
+<ul>
+<li>advertising identifiers</li>
+<li>information about ad interactions</li>
+<li>device technical data</li>
+</ul>
+
+<p>The collection and processing of such data are governed by the privacy policies of the respective third-party services.</p>
+
+<h2>3. Advertising Offers and Partner Services</h2>
+
+<p>The Application provides access to advertising materials and services of third-party partners.</p>
+
+<p><strong>Information-only basis</strong>: Auto insurance offers and other services are <strong>advertising content</strong> provided by licensed aggregators and insurance companies (hereinafter referred to as "Partners").</p>
+
+<p><strong>External redirection</strong>: All interactions with partner services, including data entry and payment, occur <strong>outside the Application</strong> — within the device's secure system browser (Chrome Custom Tabs) on the respective Partners' resources.</p>
+
+<p><strong>Data security</strong>: The Application <strong>does not collect, store, or transmit</strong> your personal (Full Name, passport, VIN) or financial data. The processing of such information is governed by the privacy policies of the respective Partners on their external resources.</p>
+
+<p><strong>Limitation of liability</strong>: The Application is exclusively an information and advertising platform. The Developer is not responsible for the content of Partners' offers, the quality of their services, or the fulfillment of their obligations.</p>
+
+<h2>4. Loyalty Program (Terms of Use)</h2>
+
+<p><strong>Game Score:</strong><br>
+Points are awarded for actions within the application, including viewing advertisements or completing insurance-related actions via the partner widget.</p>
+
+<p><strong>Points Status:</strong><br>
+Points are virtual and:</p>
+
+<ul>
+<li>have no monetary value</li>
+<li>cannot be exchanged for real money</li>
+<li>cannot be withdrawn</li>
+<li>are not a payment instrument</li>
+</ul>
+
+<p>The developer reserves the right to modify the rules for earning and using points.</p>
+
+<h2>5. Disclaimer</h2>
+
+<p>The application does not guarantee absolute accuracy in the interpretation of traffic rules by the user.</p>
+
+<p>The user is solely responsible for how the information is used in real-life situations.</p>
+
+<p>The application is not responsible for:</p>
+
+<ul>
+<li>user decisions</li>
+<li>actions of third parties</li>
+<li>operation of third-party services, including payment systems and insurance companies</li>
+</ul>
+
+<h2>6. Data Storage and Deletion</h2>
+
+<p>All user data is stored locally on the user’s device.</p>
+<p>Deleting the application results in deletion of all associated data.</p>
+<p>The application does not store user data on remote servers.</p>
+
+<h2>7. Age Restrictions</h2>
+
+<p>The application is not intended for children under 13 years of age.</p>
+<p>The developer does not knowingly collect data from minors.</p>
+
+<h2>8. Changes to This Policy</h2>
+
+<p>The developer reserves the right to update this Privacy Policy and Terms.</p>
+<p>The current version is always available within the application or on its official page.</p>
+
+<h2>9. Governing Law</h2>
+
+<p>This agreement is governed by the laws of the Russian Federation unless otherwise required by applicable law.</p>
+
+<h2>10. Contact</h2>
+
+<p>Email: pddshkin@hcontacts.com</p>
+
+</div>
+
+</div>
+</body>
+</html>
